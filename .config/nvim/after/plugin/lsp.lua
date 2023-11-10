@@ -10,6 +10,18 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
     ['<C-Space>'] = cmp.mapping.complete(),
 })
 
+lsp.ensure_installed({
+    'clang-format',
+    'clangd',
+    'cmake-language-server',
+    'delve',
+    'gopls',
+    'glow',
+    'json-lsp',
+    'lua-language-server',
+    'python-lsp-server'
+})
+
 lsp.set_preferences({
     sign_icons = {}
 })
