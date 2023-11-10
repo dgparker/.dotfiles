@@ -21,6 +21,8 @@ return require('packer').startup(function(use)
         opts = {},
     }
 
+    use({ 'projekt0n/github-nvim-theme' })
+
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v2.x',
