@@ -3,5 +3,5 @@ title = 👻
 font-family = MonoLisa Nerd Font Mono 
 font-thicken = true
 font-size = 16
-theme = Github Dark
+theme = catppuccin-macchiato
 background-opacity = 0.7

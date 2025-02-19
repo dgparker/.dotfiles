@@ -71,8 +71,8 @@ if.app-name-regex-substring = 'messages'
 run = 'move-node-to-workspace 3'
 
 [[on-window-detected]]
-if.app-name-regex-substring = '3'
-run = 'move-node-to-workspace 3'
+if.app-name-regex-substring = 'zoom'
+run = 'move-node-to-workspace 2'
 
 [[on-window-detected]]
 if.app-name-regex-substring = 'spotify'
