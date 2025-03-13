@@ -14,3 +14,5 @@ vim.keymap.set('n', '<leader>x', '<cmd>!chmod +x %<CR>', { silent = true })
 
 -- disable Q
 vim.keymap.set('n', 'Q', '<nop>')
+
+vim.keymap.set('n', '<C-a>', '<nop>')
